@@ -1,0 +1,121 @@
+<div style="background:#f4f6f8; padding:30px; border-radius:12px; font-family:Arial, sans-serif;">
+
+  <h2 style="color:#004393; text-align:center; margin-bottom:10px;">
+    AI Tools for Food Communication
+  </h2>
+
+  <p style="text-align:center; color:#333; max-width:650px; margin:0 auto 25px;">
+    AI tools can be useful in various food communication scenarios. Click on each tool below to see its function, a real use case, and an example prompt
+  </p>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:20px;">
+
+    <!-- Language Model -->
+    <div class="ai-card" style="background:#fff; border-top:5px solid #004393; border-radius:12px; padding:20px; cursor:pointer; transition:.3s;">
+      <div style="font-size:32px; text-align:center;">💬</div>
+      <h4 style="color:#004393; text-align:center;">Language Model (e.g., ChatGPT)</h4>
+      <p style="font-size:13px; text-align:center; color:#444;">
+        Draft regulatory updates, simplify technical jargon, translate food safety guidance into public-friendly language
+      </p>
+
+      <div class="ai-content" style="display:none; margin-top:15px; background:#eef3f8; padding:12px; border-radius:8px; font-size:13px;">
+        <strong>Use case example:</strong><br>
+        Communicating new allergen labeling laws<br><br>
+        <strong>Prompt example:</strong><br>
+        “Summarize the new allergen labeling requirements from EFSA in clear, non-technical language for consumers.”
+      </div>
+    </div>
+
+    <!-- Text Summarizer -->
+    <div class="ai-card" style="background:#fff; border-top:5px solid #0079C2; border-radius:12px; padding:20px; cursor:pointer; transition:.3s;">
+      <div style="font-size:32px; text-align:center;">📝</div>
+      <h4 style="color:#0079C2; text-align:center;">Text Summarizer</h4>
+      <p style="font-size:13px; text-align:center; color:#444;">
+        Condense long safety or regulatory reports into digestible executive summaries
+      </p>
+
+      <div class="ai-content" style="display:none; margin-top:15px; background:#eef3f8; padding:12px; border-radius:8px; font-size:13px;">
+        <strong>Use case example:</strong><br>
+        Reporting a HACCP audit to stakeholders<br><br>
+        <strong>Prompt example:</strong><br>
+        “Summarize this HACCP audit report for food service executives in under 200 words.”
+      </div>
+    </div>
+
+    <!-- Translation AI -->
+    <div class="ai-card" style="background:#fff; border-top:5px solid #00A88F; border-radius:12px; padding:20px; cursor:pointer; transition:.3s;">
+      <div style="font-size:32px; text-align:center;">🌍</div>
+      <h4 style="color:#00A88F; text-align:center;">Translation AI (e.g., DeepL, Google Translate + AI editing)</h4>
+      <p style="font-size:13px; text-align:center; color:#444;">
+        Translate food safety regulations or crisis alerts for global audiences
+      </p>
+
+      <div class="ai-content" style="display:none; margin-top:15px; background:#eef3f8; padding:12px; border-radius:8px; font-size:13px;">
+        <strong>Use case example:</strong><br>
+        Urgent contamination notice across multiple countries<br><br>
+        <strong>Prompt example:</strong><br>
+        “Translate and localize this product recall alert for Spanish-speaking consumers, keeping urgency and clarity.”
+      </div>
+    </div>
+
+    <!-- Speech to Text -->
+    <div class="ai-card" style="background:#fff; border-top:5px solid #9A6DD7; border-radius:12px; padding:20px; cursor:pointer; transition:.3s;">
+      <div style="font-size:32px; text-align:center;">🎤</div>
+      <h4 style="color:#9A6DD7; text-align:center;">Speech-to-Text / Voice Assistants</h4>
+      <p style="font-size:13px; text-align:center; color:#444;">
+        Real-time transcriptions of safety briefings or regulatory meetings
+      </p>
+
+      <div class="ai-content" style="display:none; margin-top:15px; background:#eef3f8; padding:12px; border-radius:8px; font-size:13px;">
+        <strong>Use case example:</strong><br>
+        Recording and transcribing a food safety training session<br><br>
+        <strong>Prompt example:</strong><br>
+        “Transcribe and summarize today’s HACCP compliance meeting into bullet points.”
+      </div>
+    </div>
+
+    <!-- AI Graphic Generator -->
+    <div class="ai-card" style="background:#fff; border-top:5px solid #FF9A3C; border-radius:12px; padding:20px; cursor:pointer; transition:.3s;">
+      <div style="font-size:32px; text-align:center;">🎨</div>
+      <h4 style="color:#FF9A3C; text-align:center;">AI Graphic Generator (e.g., Canva AI, MidJourney)</h4>
+      <p style="font-size:13px; text-align:center; color:#444;">
+        Create visuals and infographics to support food safety messaging or crisis protocols
+      </p>
+
+      <div class="ai-content" style="display:none; margin-top:15px; background:#eef3f8; padding:12px; border-radius:8px; font-size:13px;">
+        <strong>Use case example:</strong><br>
+        Designing a foodborne illness prevention campaign<br><br>
+        <strong>Prompt example:</strong><br>
+        “Create an infographic explaining five key consumer practices to prevent cross-contamination at home.”
+      </div>
+    </div>
+
+    <!-- Sentiment Analysis -->
+    <div class="ai-card" style="background:#fff; border-top:5px solid #7BC142; border-radius:12px; padding:20px; cursor:pointer; transition:.3s;">
+      <div style="font-size:32px; text-align:center;">📊</div>
+      <h4 style="color:#7BC142; text-align:center;">Sentiment Analysis Tools</h4>
+      <p style="font-size:13px; text-align:center; color:#444;">
+        Monitor public reaction to food crises or campaigns on social media
+      </p>
+
+      <div class="ai-content" style="display:none; margin-top:15px; background:#eef3f8; padding:12px; border-radius:8px; font-size:13px;">
+        <strong>Use case example:</strong><br>
+        Tracking response to a public apology after contamination<br><br>
+        <strong>Prompt example:</strong><br>
+        “Analyze social media sentiment around the brand after the E. coli outbreak press release.”
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.ai-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const box = card.querySelector('.ai-content');
+      const isOpen = box.style.display === 'block';
+      box.style.display = isOpen ? 'none' : 'block';
+      card.style.transform = isOpen ? 'scale(1)' : 'scale(1.02)';
+    });
+  });
+</script>
